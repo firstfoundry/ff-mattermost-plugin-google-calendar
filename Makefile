@@ -11,7 +11,7 @@ MM_UTILITIES_DIR ?= ../mattermost-utilities
 DEFAULT_GOOS := $(shell go env GOOS)
 DEFAULT_GOARCH := $(shell go env GOARCH)
 
-REPOSITORY_URL ?= github.com/mattermost/mattermost-plugin-google-calendar
+REPOSITORY_URL ?= github.com/firstfoundry/ff-mattermost-plugin-google-calendar
 GO_PACKAGES ?= ./server/... ./gcal/...
 
 export GO111MODULE=on
