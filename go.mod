@@ -1,9 +1,9 @@
-module github.com/mattermost/mattermost-plugin-google-calendar
+module github.com/firstfoundry/ff-mattermost-plugin-google-calendar
 
-go 1.21
+go 1.19
 
 require (
-	github.com/mattermost/mattermost-plugin-mscalendar v1.2.2-0.20231004165614-5ef3953c1393
+	//github.com/firstfoundry/ff-mattermost-plugin-mscalendar v1.2.2-0.20231004165614-5ef3953c1393
 	github.com/mattermost/mattermost-server/v6 v6.3.0
 	github.com/mholt/archiver/v3 v3.5.1
 	github.com/pkg/errors v0.9.1
@@ -24,6 +24,7 @@ require (
 	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/dyatlov/go-opengraph v0.0.0-20210112100619-dae8665a5b09 // indirect
 	github.com/fatih/color v1.13.0 // indirect
+	github.com/firstfoundry/ff-mattermost-plugin-mscalendar v0.0.0-20231220204707-63309e0c5adf // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect
 	github.com/go-asn1-ber/asn1-ber v1.5.3 // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect

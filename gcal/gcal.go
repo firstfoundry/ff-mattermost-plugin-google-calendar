@@ -1,13 +1,13 @@
 package gcal
 
 import (
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/config"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/config"
 )
 
 const (
 	ProviderGCal            = "gcal"
 	ProviderGCalDisplayName = "Google Calendar"
-	ProviderGCalRepository  = "https://github.com/mattermost/mattermost-plugin-google-calendar"
+	ProviderGCalRepository  = "https://github.com/firstfoundry/ff-mattermost-plugin-google-calendar"
 )
 
 func GetGcalProviderConfig() config.ProviderConfig {
