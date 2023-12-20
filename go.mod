@@ -3,7 +3,6 @@ module github.com/firstfoundry/ff-mattermost-plugin-google-calendar
 go 1.19
 
 require (
-	//github.com/firstfoundry/ff-mattermost-plugin-mscalendar v1.2.2-0.20231004165614-5ef3953c1393
 	github.com/mattermost/mattermost-server/v6 v6.3.0
 	github.com/mholt/archiver/v3 v3.5.1
 	github.com/pkg/errors v0.9.1
