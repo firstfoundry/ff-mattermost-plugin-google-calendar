@@ -1,12 +1,12 @@
 {
     "id": "com.mattermost.gcal",
-    "name": "Google Calendar",
-    "description": "Google Calendar Integration",
+    "name": "Google Calendar for FF",
+    "description": "Google Calendar MM-FF Integration",
     "homepage_url": "https://github.com/firstfoundry/ff-mattermost-plugin-google-calendar",
     "support_url": "https://github.com/firstfoundry/ff-mattermost-plugin-google-calendar/issues",
     "release_notes_url": "https://github.com/firstfoundry/ff-mattermost-plugin-google-calendar/releases/tag/v1.0.1",
     "icon_path": "assets/profile-gcal.svg",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "min_server_version": "6.3.0",
     "server": {
         "executables": {
