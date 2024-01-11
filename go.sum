@@ -439,8 +439,6 @@ github.com/fatih/structs v1.1.0/go.mod h1:9NiDSp5zOcgEDl+j00MP/WkGVPOlPRLejGD8Ga
 github.com/fcjr/aia-transport-go v1.2.2/go.mod h1:onSqSq3tGkM14WusDx7q9FTheS9R1KBtD+QBWI6zG/w=
 github.com/felixge/httpsnoop v1.0.1/go.mod h1:m8KPJKqk1gH5J9DgRY2ASl2lWCfGKXixSwevea8zH2U=
 github.com/felixge/httpsnoop v1.0.2/go.mod h1:m8KPJKqk1gH5J9DgRY2ASl2lWCfGKXixSwevea8zH2U=
-github.com/firstfoundry/ff-mattermost-plugin-mscalendar v0.0.0-20231220204707-63309e0c5adf h1:NnfpU7rcUtYIQxjeO6RhXwet3O373zovg8lypynW7qM=
-github.com/firstfoundry/ff-mattermost-plugin-mscalendar v0.0.0-20231220204707-63309e0c5adf/go.mod h1:AUix2q7lDd7ijM/IYgu2KYmteWQG4ZoRsHV19rIr2R0=
 github.com/flynn/go-shlex v0.0.0-20150515145356-3f9db97f8568/go.mod h1:xEzjJPgXI435gkrCt3MPfRiAkVrwSbHsst4LCFVfpJc=
 github.com/fogleman/gg v1.2.1-0.20190220221249-0403632d5b90/go.mod h1:R/bRT+9gY/C5z7JzPU0zXsXHKM4/ayA+zqcVNZzPa1k=
 github.com/fogleman/gg v1.3.0/go.mod h1:R/bRT+9gY/C5z7JzPU0zXsXHKM4/ayA+zqcVNZzPa1k=
@@ -921,6 +919,8 @@ github.com/mattermost/logr/v2 v2.0.15 h1:+WNbGcsc3dBao65eXlceB6dTILNJRIrvubnsTl3
 github.com/mattermost/logr/v2 v2.0.15/go.mod h1:mpPp935r5dIkFDo2y9Q87cQWhFR/4xXpNh0k/y8Hmwg=
 github.com/mattermost/mattermost-plugin-api v0.0.27 h1:zFKQ6JW1/f0MfR5dP9P2umNNYVcLtTO74mM/PrVPNC4=
 github.com/mattermost/mattermost-plugin-api v0.0.27/go.mod h1:MM+tZ+36Obm9jqcveoxY2RFbwLaZKZUgR1zUlc0UBYw=
+github.com/firstfoundry/ff-mattermost-plugin-mscalendar v0.0.0-20240110104955-56283c513073 h1:7sHVsB+ldjr7zAAalka+yPKX1v1AJRZGDFMhYsDEGBc=
+github.com/firstfoundry/ff-mattermost-plugin-mscalendar v0.0.0-20240110104955-56283c513073/go.mod h1:tyZSDZEVmZpCCmU9NkV2MQn4Rg1qy1tqQYMWsVZHjT0=
 github.com/mattermost/mattermost-server/v6 v6.3.0 h1:wxUBvu6whm2FAMm5n2J4xbchtrSndRW3g3VQnGt8KPw=
 github.com/mattermost/mattermost-server/v6 v6.3.0/go.mod h1:L9gIoi9ESBh/NefsaZCfOVBMnbhx+v3kXhInGt3DQmA=
 github.com/mattermost/rsc v0.0.0-20160330161541-bbaefb05eaa0/go.mod h1:nV5bfVpT//+B1RPD2JvRnxbkLmJEYXmRaaVl15fsXjs=
