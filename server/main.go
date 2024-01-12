@@ -4,9 +4,9 @@ import (
 	mattermostplugin "github.com/mattermost/mattermost-server/v6/plugin"
 
 	"github.com/firstfoundry/ff-mattermost-plugin-google-calendar/gcal"
-	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/config"
-	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/engine"
-	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/plugin"
+	"github.com/firstfoundry/ff-mattermost-plugin-google-calendar/gcal/calendar/config"
+	"github.com/firstfoundry/ff-mattermost-plugin-google-calendar/gcal/calendar/engine"
+	"github.com/firstfoundry/ff-mattermost-plugin-google-calendar/gcal/calendar/plugin"
 )
 
 var BuildHash string

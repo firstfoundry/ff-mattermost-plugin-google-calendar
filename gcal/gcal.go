@@ -1,7 +1,7 @@
 package gcal
 
 import (
-	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/config"
+	"github.com/firstfoundry/ff-mattermost-plugin-google-calendar/gcal/calendar/config"
 )
 
 const (
