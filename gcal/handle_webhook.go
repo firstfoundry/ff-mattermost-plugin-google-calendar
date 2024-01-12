@@ -6,7 +6,7 @@ package gcal
 import (
 	"net/http"
 
-	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
+	"github.com/firstfoundry/ff-mattermost-plugin-google-calendar/gcal/calendar/remote"
 )
 
 type webhook struct {

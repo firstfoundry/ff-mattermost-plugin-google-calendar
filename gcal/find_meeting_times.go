@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
+	"github.com/firstfoundry/ff-mattermost-plugin-google-calendar/gcal/calendar/remote"
 )
 
 // FindMeetingTimes finds meeting time suggestions for a calendar event

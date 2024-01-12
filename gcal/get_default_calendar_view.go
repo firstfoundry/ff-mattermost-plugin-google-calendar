@@ -11,8 +11,8 @@ import (
 	"google.golang.org/api/calendar/v3"
 	"google.golang.org/api/option"
 
-	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
-	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils"
+	"github.com/firstfoundry/ff-mattermost-plugin-google-calendar/gcal/calendar/remote"
+	"github.com/firstfoundry/ff-mattermost-plugin-google-calendar/gcal/calendar/utils"
 )
 
 const (

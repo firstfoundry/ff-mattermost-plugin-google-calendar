@@ -11,7 +11,7 @@ import (
 	"google.golang.org/api/option"
 	"google.golang.org/api/people/v1"
 
-	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
+	"github.com/firstfoundry/ff-mattermost-plugin-google-calendar/gcal/calendar/remote"
 )
 
 const personFields = "names,emailAddresses"

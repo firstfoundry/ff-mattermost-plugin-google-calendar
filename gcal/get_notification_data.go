@@ -10,7 +10,7 @@ import (
 	"google.golang.org/api/calendar/v3"
 	"google.golang.org/api/option"
 
-	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
+	"github.com/firstfoundry/ff-mattermost-plugin-google-calendar/gcal/calendar/remote"
 )
 
 func (c *client) GetNotificationData(orig *remote.Notification) (*remote.Notification, error) {

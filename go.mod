@@ -4,9 +4,15 @@ go 1.21.5
 
 require (
 	github.com/firstfoundry/ff-mattermost-plugin-mscalendar v0.0.0-20240110104955-56283c513073
-    github.com/mattermost/mattermost-server/v6 v6.3.0
+	github.com/golang/mock v1.6.0
+	github.com/gorilla/mux v1.8.0
+	github.com/jarcoal/httpmock v1.0.4
+	github.com/mattermost/mattermost-plugin-api v0.0.27
+	github.com/mattermost/mattermost-server/v6 v6.3.0
 	github.com/mholt/archiver/v3 v3.5.1
 	github.com/pkg/errors v0.9.1
+	github.com/rudderlabs/analytics-go v3.3.1+incompatible
+	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.1
 	github.com/yaegashi/msgraph.go v0.0.0-20191104022859-3f9096c750b2
 	golang.org/x/oauth2 v0.4.0
@@ -33,7 +39,6 @@ require (
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.2.0 // indirect
 	github.com/googleapis/gax-go/v2 v2.7.0 // indirect
-	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/hashicorp/go-hclog v1.0.0 // indirect
 	github.com/hashicorp/go-plugin v1.4.3 // indirect
@@ -46,7 +51,6 @@ require (
 	github.com/mattermost/go-i18n v1.11.1-0.20211013152124-5c415071e404 // indirect
 	github.com/mattermost/ldap v0.0.0-20201202150706-ee0e6284187d // indirect
 	github.com/mattermost/logr/v2 v2.0.15 // indirect
-	github.com/mattermost/mattermost-plugin-api v0.0.27 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/minio/md5-simd v1.1.2 // indirect
@@ -64,10 +68,8 @@ require (
 	github.com/pierrec/lz4/v4 v4.1.11 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rs/xid v1.3.0 // indirect
-	github.com/rudderlabs/analytics-go v3.3.1+incompatible // indirect
 	github.com/segmentio/backo-go v0.0.0-20200129164019-23eae7c10bd3 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/tidwall/gjson v1.11.0 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect

@@ -4,7 +4,7 @@
 package gcal
 
 import (
-	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
+	"github.com/firstfoundry/ff-mattermost-plugin-google-calendar/gcal/calendar/remote"
 )
 
 func (c *client) GetSuperuserToken() (string, error) {
