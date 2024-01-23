@@ -10,8 +10,8 @@ const (
 	GetConfirmationSettingID            = "get_confirmation"
 	ReceiveNotificationsDuringMeetingID = "receive_notification"
 	ReceiveRemindersSettingID           = "get_reminders"
-	ReceiveRemindersTimingSettingID     = "reminder_timing"
-	DailySummarySettingID               = "summary_setting"
+	//ReceiveRemindersTimingSettingID     = "reminder_timing"
+	DailySummarySettingID = "summary_setting"
 )
 
 func (s *pluginStore) SetSetting(userID, settingID string, value interface{}) error {
@@ -48,12 +48,14 @@ func (s *pluginStore) SetSetting(userID, settingID string, value interface{}) er
 			return fmt.Errorf("cannot read value %v for setting %s (expecting bool)", value, settingID)
 		}
 		user.Settings.ReceiveReminders = storableValue
-	case ReceiveRemindersTimingSettingID:
-		storableValue, ok := value.(string)
-		if !ok {
-			return fmt.Errorf("cannot read value %v for setting %s (expecting int)", value, settingID)
-		}
-		user.Settings.ReceiveReminderTiming = storableValue
+	/*
+		case ReceiveRemindersTimingSettingID:
+			storableValue, ok := value.(string)
+			if !ok {
+				return fmt.Errorf("cannot read value %v for setting %s (expecting int)", value, settingID)
+			}
+			user.Settings.ReceiveReminderTiming = storableValue
+	*/
 	case DailySummarySettingID:
 		s.updateDailySummarySettingForUser(user, value)
 	default:
@@ -83,8 +85,8 @@ func (s *pluginStore) GetSetting(userID, settingID string) (interface{}, error) 
 		return user.Settings.ReceiveNotificationsDuringMeeting, nil
 	case ReceiveRemindersSettingID:
 		return user.Settings.ReceiveReminders, nil
-	case ReceiveRemindersTimingSettingID:
-		return user.Settings.ReceiveReminderTiming, nil
+	//case ReceiveRemindersTimingSettingID:
+	//	return user.Settings.ReceiveReminderTiming, nil
 	case DailySummarySettingID:
 		dsum := user.Settings.DailySummary
 		return dsum, nil
@@ -153,6 +155,8 @@ func (s *pluginStore) updateReminderTimingForUser(user *User, value interface{})
 		dsum.Enable = true
 	case "false":
 
+*/
+
 func (s *pluginStore) SetPanelPostID(userID string, postID string) error {
 	err := s.settingsPanelKV.Store(userID, []byte(postID))
 	if err != nil {
@@ -160,7 +164,6 @@ func (s *pluginStore) SetPanelPostID(userID string, postID string) error {
 	}
 	return nil
 }
-*/
 
 func (s *pluginStore) GetPanelPostID(userID string) (string, error) {
 	postID, err := s.settingsPanelKV.Load(userID)
