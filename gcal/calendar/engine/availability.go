@@ -20,11 +20,12 @@ import (
 
 const (
 	calendarViewTimeWindowSize    = 10 * time.Minute
-	StatusSyncJobInterval         = 5 * time.Minute
-	upcomingEventNotificationTime = 10 * time.Minute
+	StatusSyncJobInterval         = 1 * time.Minute
+	upcomingEventNotificationTime = 1 * time.Minute
 
 	// REVIEW: This should be documented how this works. A dev has to read code to understand how the timing of these jobs and close proximity calendar events work
-	upcomingEventNotificationWindow = (StatusSyncJobInterval * 11) / 10 // 110% of the interval
+	// EDIT: Shortening the interval to account for more frequent interval
+	upcomingEventNotificationWindow = (StatusSyncJobInterval * 9) / 10 // 110% of the interval
 	logTruncateMsg                  = "We've truncated the logs due to too many messages"
 	logTruncateLimit                = 5
 )

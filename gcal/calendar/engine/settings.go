@@ -53,14 +53,16 @@ func NewSettingsPanel(bot bot.Bot, panelStore settingspanel.PanelStore, settingS
 		"",
 		settingStore,
 	))
-	settings = append(settings, settingspanel.NewOptionSetting(
-		store.ReceiveRemindersTimingSettingID,
-		"Reminder Timing",
-		"How early would you like to receive reminders?",
-		"",
-		[]string{"1 minute", "5 minutes", "30 minutes"},
-		settingStore,
-	))
+	/*
+		settings = append(settings, settingspanel.NewOptionSetting(
+			store.ReceiveRemindersTimingSettingID,
+			"Reminder Timing",
+			"How early would you like to receive reminders?",
+			"",
+			[]string{"1 minute", "5 minutes", "30 minutes"},
+			settingStore,
+		))
+	*/
 	if providerFeatures.EventNotifications {
 		settings = append(settings, NewNotificationsSetting(getCal))
 	}
