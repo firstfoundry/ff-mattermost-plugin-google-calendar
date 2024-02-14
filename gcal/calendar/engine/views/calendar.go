@@ -173,9 +173,10 @@ func RenderEventAsAttachment(event *remote.Event, timezone string, options ...Op
 	attachment := &model.SlackAttachment{
 		Title:     event.Subject,
 		TitleLink: titleLink,
-		Text:      fmt.Sprintf("%s - %s", event.Start.In(timezone).Time().Format(time.Kitchen), event.End.In(timezone).Time().Format(time.Kitchen)),
-		Fields:    fields,
-		Actions:   actions,
+		Text:      fmt.Sprintf("1 Minute until %s (%s - %s)", event.Subject, event.Start.In(timezone).Time().Format(time.Kitchen), event.End.In(timezone).Time().Format(time.Kitchen)),
+		//Text:    fmt.Sprintf("1 Minute until %s", event.Subject),
+		Fields:  fields,
+		Actions: actions,
 	}
 
 	for _, opt := range options {

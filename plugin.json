@@ -6,7 +6,7 @@
     "support_url": "https://github.com/firstfoundry/ff-mattermost-plugin-google-calendar/issues",
     "release_notes_url": "https://github.com/firstfoundry/ff-mattermost-plugin-google-calendar/releases/tag/v1.0.1",
     "icon_path": "assets/profile-gcal.svg",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "min_server_version": "6.3.0",
     "server": {
         "executables": {
