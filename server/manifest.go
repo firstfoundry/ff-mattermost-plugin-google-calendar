@@ -7,5 +7,5 @@ var manifest = struct {
 	Version string
 }{
 	ID:      "com.mattermost.gcal",
-	Version: "1.0.2",
+	Version: "1.0.3",
 }
